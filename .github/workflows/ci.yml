@@ -965,7 +965,7 @@ jobs:
           # external kissat solver are resident together), which exhausts the 16 GB
           # ubuntu-latest runner and gets the runner killed mid-solve.
           - crate: quic/s2n-quic-core
-            runner: s2n_ubuntu-26.04_8-core
+            runner: s2n_ubuntu-latest_8-core
           - crate: quic/s2n-quic-platform
             runner: ubuntu-latest
     steps:
